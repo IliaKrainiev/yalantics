@@ -1,23 +1,23 @@
-### yalantics
+### yalantics ##
 
 
-#Count quanity of users on page.
-#Logging errors into db and to console.
+# Count quanity of users on page. #
+# Logging errors into db and to console. #
 
 __Web-server on Node.js with Express usage
 API tests with Jest using supertest.
 MongoDB as storage.__
 
-##API
+## API
 
-    `"/"` - _main route_
+    `"/"` -  main route
 
-    `"/logs"` - _logs_
+    `"/logs"` - logs
 
-    `"/distinct-by-ip"` - _returns quanity of unique users by ip_
+    `"/distinct-by-ip"` - returns quanity of unique users by ip
     
  
- ##HOW TO RUN PROJECT
+ ## HOW TO RUN PROJECT
  
   Please, download project using `git clone https://github.com/IliaKrainiev/yalantics.git`.
   
