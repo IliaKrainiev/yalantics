@@ -1,21 +1,32 @@
-# yalantics
+### yalantics
 
 
-Test Project
+#Count quanity of users on page.
+#Logging errors into db and to console.
 
-Count quanity of users on page.
-Logging errors into db and to console.
-
-Web-server on Node.js with Express usage.
+__Web-server on Node.js with Express usage
 API tests with Jest using supertest.
-MongoDB as storage.
+MongoDB as storage.__
 
-API
+##API
 
-"/" - main route
+    `"/"` - _main route_
 
-"/logs" - logs
+    `"/logs"` - _logs_
 
-"/distinct-by-ip" - returns quanity of unique users by ip
+    `"/distinct-by-ip"` - _returns quanity of unique users by ip_
+    
+ 
+ ##HOW TO RUN PROJECT
+ 
+  Please, download project using `git clone https://github.com/IliaKrainiev/yalantics.git`.
+  
+  Run  `npm install`.
+  
+  If you dont have local Mongo Db, then please install it using official documentation `https://docs.mongodb.com/manual/installation/`.
+  
+  Then create databases with name `yalantics`, and `yalantics-test` with two collections inside - users_on_site(ip (String) column), request_logs (ip (String), error (String)) (TODO: add migration script)
+  
+  Then you can run `npm start` and it will works for you!
 
 
